@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>API Management Tool</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+    <!-- <link rel="stylesheet" id="dr-main-styles-css" href="https://designrevision.com/app/themes/designrevision/assets/build/style.1.2.4.css?ver=5.0.3" type="text/css" media="all"> -->
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar row">
+                <a title="API Managememnt Tool" class="site-logo pull-left" href="https://designrevision.com/">
+                  <h1 class="entry-title">API Managememnt Tool</h1>
+                </a>
+                <div class="menu-primary-menu-container">
+                  <ul id="menu-primary-menu-1" class="primary-menu pull-right xs-hidden sm-hidden">
+                    <li><a href="/Team">Team</a></li>
+                    <li><a href="/Doc">Documentation</a></li>
+                    <li><a href="/getKey">Get API Key</a></li>
+                    <li><a href="/Dashboard">Dashboard</a></li>
+                  </ul>
+                </div>                
+                <div class="primary-menu responsive pull-right sm-visible md-hidden lg-hidden">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>Menu</div>
+            </nav>
+        </div>
+	</header>
+{% block body %}
+{% endblock %}
+</body>
+</html>

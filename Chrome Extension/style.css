@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+
+html,
+body {
+  background-color: #eaeaea;
+  height: 300px;
+  width: 300px;
+}
+
+.card {
+  background-color: #fff;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.card_circle {
+  height: 400px;
+  width: 450px;
+  background: url(/Yellow.jpg) no-repeat;
+  /* background: url(https://static.vecteezy.com/system/resources/previews/000/173/208/non_2x/vector-phishing-concept.jpg) no-repeat; */
+
+  background-size: cover;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: -75px;
+  margin-top: -270px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 150px;
+  position: absolute;
+  z-index: 9999;
+  font-size: 26px;
+  color: #2196F3;
+  width: 100%;
+  font-family: 'Noto Sans', serif;
+}
+
+h2 small {
+  font-weight: normal;
+  font-size: 65%;
+  color: rgba(0,0,0,0.5);
+}
+
+
+.cta-container {
+  text-align: center;
+  margin-top: 250px;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  font-family: 'Noto Sans', serif;
+}
+
+.cta {
+  color: #fff;
+  border: 2px solid #2196F3;
+  background-color: #2196F3;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
