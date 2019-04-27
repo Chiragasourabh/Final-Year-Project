@@ -2,9 +2,10 @@
 
 Base Instructions
 
-1. cd to the directory where requirements.txt is located.
-2. activate your virtualenv.
-3. run: pip install -r requirements.txt
+1. install python in your machine
+2. cd to the directory where requirements.txt is located.
+3. activate your virtualenv.
+4. run: pip install -r requirements.txt
 
 
 #Instructions To Run Flask Application
