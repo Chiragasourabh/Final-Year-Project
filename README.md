@@ -14,7 +14,7 @@ Base Instructions
 
 #Instructions To Run Flask Application
 
-1. cd to the directory where app.py is located. (Final-Year-Project\falsk app (Server)\)
+1. cd to the directory where app.py is located. (Final-Year-Project/falsk app (Server)\)
 2. activate your virtualenv.
 3. run: set FLASK_APP=app.py
 4. run: set FLASK_ENV=development
@@ -25,10 +25,10 @@ Base Instructions
 1. Open the Extension Management page by navigating to chrome://extensions.
     (The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions.)
 2. Enable Developer Mode by clicking the toggle switch next to Developer mode.
-3. Click the LOAD UNPACKED button and select the extension directory. (Final-Year-Project\Chrome Extension)
+3. Click the LOAD UNPACKED button and select the extension directory. (Final-Year-Project/Chrome Extension)
 
 #Instructions to run Jupyter notebook files
 
-1. cd to the directory where jupyter notebook files are located. (Final-Year-Project\ML)
+1. cd to the directory where jupyter notebook files are located. (Final-Year-Project/ML)
 2. activate your virtualenv.
 3. run: jupyter notebook
