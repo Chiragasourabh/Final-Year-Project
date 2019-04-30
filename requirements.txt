@@ -5,4 +5,5 @@ joblib
 beautifulsoup4
 urllib
 whois
+re2
 google-search
