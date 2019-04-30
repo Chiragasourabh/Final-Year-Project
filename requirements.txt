@@ -1,1 +1,8 @@
-
+flask
+numpy
+scikit-learn
+joblib
+beautifulsoup4
+urllib
+whois
+google-search
