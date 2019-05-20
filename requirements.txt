@@ -1,6 +1,7 @@
 flask
 numpy
 scikit-learn
+lightgbm
 joblib
 beautifulsoup4
 urllib
