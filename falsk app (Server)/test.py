@@ -12,6 +12,7 @@ def check(url,clf):
     features_test = np.array(features_test).reshape((1, -1))
     prT=time.time()
     pred = clf.predict(features_test)
+    # pred1 = clf1.predict(features_test)
 #     prob=clf.predict_proba(features_test)
     preT=time.time()
 
@@ -24,13 +25,14 @@ def check(url,clf):
 
     if int(pred[0])==1:
         print(url)
-        print ("This is a safe website.")
+        print ("ML Model Predicts This as a safe website.")
         return False
-        # return str(url)+" is a safe website."
+    #     # return str(url)+" is a safe website."
         
     elif int(pred[0])==-1:
         print(url)
-        print ("This is a phishing website..!")
+        print ("ML Model Predicts This as a phishing website..!")
         return True
         # return str(url)+" is a phishing website..!"
+
         
