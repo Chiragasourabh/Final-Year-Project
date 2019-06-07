@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Testing sweetalert</title>
+<script src="sweetalert.js"></script>
+<link rel="stylesheet" type="text/css" href="sweetalert.css">
+</head>
+<body>
+<button onclick="safe();">safe</button>
+<button onclick="phish();">phish</button>
+<script type="text/javascript">
+	function safe(){
+		swal("Safe", "Good to go!", "success")
+		}
+		
+	function phish(){
+		swal("Danger", "Phishing Site ahead", "error"); 
+		}
+</script>
+</body>
+</html>
