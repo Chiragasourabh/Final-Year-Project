@@ -119,9 +119,11 @@ def api2():
                     ret = {'url':url, 'pish':"True"}
                 else:
                     print("\n")
-                    print("{url} is not a phish!".format(url=PhishTankResult.url))
-                    print("\n")
-                    ret = {'url':url,'pish':"False"}
+                    # print("{url} is not a phish!".format(url=PhishTankResult.url))
+                    # print("\n")
+                    # ret = {'url':url,'pish':"False"}
+                    x = test.check(url,model)
+                    ret = {'url':url, 'pish':str(x)}
             else:
                 # print("{url} is not in the PhishTank database".format(url=PhishTankResult.url))
                 x = test.check(url,model)
