@@ -25,6 +25,6 @@
 
     var node = document.createElement('style');
 	node.innerHTML = 'body { font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; }';
-	document.body.appendChild(node);
+	document.head.appendChild(node);
 
 })();

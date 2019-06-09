@@ -1,3 +1,4 @@
+// alert(document.readyState);
 if(document.readyState == "complete"){
 	document.getElementById("phishzfTvgE").click();
 }

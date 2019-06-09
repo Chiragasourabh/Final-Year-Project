@@ -1,9 +1,8 @@
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
-	chrome.tabs.executeScript({
-			file: 'setup.js'
-		});
+	
 	if(changeInfo.url.toString().startsWith("chrome")){ }
 	else{ 
+		chrome.tabs.executeScript({file: 'setup.js'});
 		var tablink;
 		tablink = changeInfo.url.toString();
 		var xhr=new XMLHttpRequest();
