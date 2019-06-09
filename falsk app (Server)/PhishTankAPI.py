@@ -19,7 +19,7 @@ class PhishTankError(Exception):
     Exception for PhishTank errors.
     """
     pass
-
+    
 class PhishTankAPILimitExceeded(Exception):
     """
     Exception for exceeding the PhishTank API limit.
@@ -43,7 +43,7 @@ class Result():
         :Parameters:
            - `response`: actual json response from the service
         """
-
+        
         self.url = response.get('url', None)
         self.in_database = response.get('in_database', None)
         self.phish_id = response.get('phish_id', None)
@@ -113,17 +113,17 @@ class PhishTank():
         """
         self.__apikey = apikey
         self._api_url = api_url
-
+        
     def requests_left(self):
         """Check if there are API requests available, returns True if there are, False if not."""
         if (self._time_to_next_request >= datetime.utcnow()):
             return False
-
+            
         if (self._requests_available - self._requests_made) > 0:
             return True
         else:
             return False
-
+            
     def time_to_wait(self):
         """Update the time to wait until next request allowed."""
         self._time_to_next_request = datetime.utcnow() + timedelta(seconds=self._request_interval)
@@ -139,16 +139,16 @@ class PhishTank():
             'format': 'json',
             'app_key': self.__apikey,
         }
-
+    
         response = requests.post(self._api_url, data=post_data)
         self._requests_made = int(response.headers.get('X-Request-Count', 0))
         self._requests_available = int(response.headers.get('X-Request-Limit', 50))
         self._request_interval = int(response.headers.get("X-Request-Limit-Interval", 300)[:-8])
-
-
+        
+    
         if response.status_code == 509:
             raise PhishTankAPILimitExceeded(self._request_interval)
-
+                
         data = response.json()
 
         if 'errortext' in data.keys():
