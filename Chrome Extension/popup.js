@@ -49,7 +49,6 @@ $(document).ready(function(){
     });
 });
 
-f
 
 // chrome.tabs.getSelected(null,function(tab) {
 //    	var tablink = tab.url;

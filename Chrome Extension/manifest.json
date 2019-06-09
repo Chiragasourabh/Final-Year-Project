@@ -7,7 +7,7 @@
   "browser_action": {
   	"default_icon": "eye.png",
 	"default_popup": "popup.html"
-  	},
+    },
   "background": {
     "scripts": ["background.js"],
     "persistent": false

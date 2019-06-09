@@ -1,4 +1,7 @@
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+	chrome.tabs.executeScript({
+			file: 'setup.js'
+		});
 	if(changeInfo.url.toString().startsWith("chrome")){ }
 	else{ 
 		var tablink;
@@ -11,12 +14,12 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 		xhr.send(markup);
 		var data = JSON.parse(xhr.responseText);
 		if(data.pish=="True"){
-			alert("Phishing Site");
-			// swal("Danger site!", "Be Carefull!", "error")
+			// alert("Phishing Site");
+			chrome.tabs.executeScript({file: 'phish.js'});
 		}
 		else if(data.pish == "False"){
-			alert("Safe site");
-			// swal("Safe site!", "You can move forward!", "success")
+			// alert("Safe site");
+			chrome.tabs.executeScript({file: 'safe.js'});
 		}
 		else{
 			alert("Oh ohh Unable to Predict");
