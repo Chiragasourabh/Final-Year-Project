@@ -1,5 +1,7 @@
 # Final-Year-Project
 
+[![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://badge.fury.io/py/nyoka)
+
 
 # ############################################
 ## WAIT UNTILL REQUIREMENT.TXT FILE IS UPDATED
