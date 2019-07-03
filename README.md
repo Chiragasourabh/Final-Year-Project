@@ -1,7 +1,7 @@
 # Final-Year-Project
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://badge.fury.io/py/nyoka)
-[![Developer]()
 
 
 # ############################################
