@@ -2,7 +2,8 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://badge.fury.io/py/nyoka)
-[![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/Chiragasourabh/watchers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/Chiragasourabh/Final-Year-Project/watchers)
+[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Chiragasourabh/Final-Year-Project/graphs/contributors)
 
 
 # ############################################
