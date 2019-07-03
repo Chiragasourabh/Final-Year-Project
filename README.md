@@ -1,6 +1,6 @@
 # Final-Year-Project
 
-[![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://badge.fury.io/py/nyoka)
+[![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://badge.fury.io/py/nyoka)
 
 
 # ############################################
