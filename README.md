@@ -42,3 +42,12 @@ Base Instructions
 
 # Architecture Design
 <img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/Architecture.png" alt="Architecture" height="500" style="float:right"/>
+
+# Control Flow Diagram
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/Control%20Flow.png" alt="Architecture" height="500" style="float:right"/>
+
+# System Design
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/System%20Design.png" alt="Architecture" height="500" style="float:right"/>
+
+# User Interaction
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/User%20Interaction.png" alt="Architecture" height="500" style="float:right"/>
