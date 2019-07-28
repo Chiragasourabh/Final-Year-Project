@@ -39,3 +39,6 @@ Base Instructions
 1. cd to the directory where jupyter notebook files are located. (Final-Year-Project/ML)
 2. activate your virtualenv.
 3. run: jupyter notebook
+
+# Architecture Design
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/Architecture.png" alt="Architecture" height="600" style="float:right"/>
