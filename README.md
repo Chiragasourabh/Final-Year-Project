@@ -41,4 +41,4 @@ Base Instructions
 3. run: jupyter notebook
 
 # Architecture Design
-<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/Architecture.png" alt="Architecture" height="400" style="float:right"/>
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/Architecture.png" alt="Architecture" height="500" style="float:right"/>
