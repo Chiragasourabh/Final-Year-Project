@@ -44,10 +44,21 @@ Base Instructions
 <img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/Architecture.png" alt="Architecture" height="500" style="float:right"/>
 
 # Control Flow Diagram
-<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/Control%20Flow.png" alt="Architecture" height="500" style="float:right"/>
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/Control%20Flow.png" alt="Control Flow" height="500" style="float:right"/>
 
 # System Design
-<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/System%20Design.png" alt="Architecture" height="500" style="float:right"/>
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/System%20Design.png" alt="System Design" height="500" style="float:right"/>
 
 # User Interaction
-<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/User%20Interaction.png" alt="Architecture" height="500" style="float:right"/>
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Docs/User%20Interaction.png" alt="User interaction" height="500" style="float:right"/>
+
+
+# Screenshots
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Screenshots/Screenshot%201.png" alt="Screenshot1" height="500" style="float:right"/>
+
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Screenshots/Screenshot%202.png" alt="Screenshot2" height="500" style="float:right"/>
+
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Screenshots/Screenshot%203.png" alt="Screenshot3" height="500" style="float:right"/>
+
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Screenshots/Screenshot%204.png" alt="Screenshot4" height="500" style="float:right"/>
+
