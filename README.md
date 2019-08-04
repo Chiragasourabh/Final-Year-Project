@@ -54,9 +54,9 @@ Base Instructions
 
 
 # Screenshots
-<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Screenshots/Screenshot%201.png" alt="Screenshot1" height="500" style="float:right"/>
+<!--<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Screenshots/Screenshot%201.png" alt="Screenshot1" height="500" style="float:right"/>
 
-<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Screenshots/Screenshot%202.png" alt="Screenshot2" height="500" style="float:right"/>
+<img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Screenshots/Screenshot%202.png" alt="Screenshot2" height="500" style="float:right"/>-->
 
 <img src="https://github.com/Chiragasourabh/Final-Year-Project/blob/master/Screenshots/Screenshot%203.png" alt="Screenshot3" height="500" style="float:right"/>
 
